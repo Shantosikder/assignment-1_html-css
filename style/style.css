@@ -44,7 +44,6 @@
     border: none;
     cursor: pointer;
     font-weight: 600;
-  
     padding: 10px 25px;
     
 }
@@ -122,9 +121,6 @@
     font-weight: 700;
     font-size: 30px;
 }
-.plans img{
- 
-}
 /* watch part start */
 .positive{
     background-image: linear-gradient(80deg, #005FAC 0%, rgba(0, 95, 172, 0) 50%), url('../images/watch.png');
@@ -146,7 +142,6 @@
     width: 400px;
     font-size: 35px;
     margin-bottom: 24px;
-    
 }
 /* positive part end */
 
@@ -207,7 +202,7 @@ div.gallery {
     padding: 18px 30px;
     border-radius: 5px;
     background-color: #000000;
-    color: F3F3F3;
+    color: #ffff;
     font-weight: 700;
     font-size: 18px;
 }
