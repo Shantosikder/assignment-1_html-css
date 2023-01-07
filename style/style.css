@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans';
+}
+
+/* Banner style Start */
+.banner-sub{
+  width: 50%;
+  margin-left: auto;
+}
+
+.banner-sub .contact-button-wrapper{
+    text-align: right;
+    padding-bottom: 166px;
+    padding-right: 243px;
+}
+.banner-sub h3{
+    color: #ffff;
+    padding-top: 216px;
+    padding-right: 230px;
+    padding-bottom: 24px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+}
+.banner-sub p{
+    color: #ffff;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    padding-right: 230px;
+    padding-bottom: 24px;
+    padding-left: 300px;
+}
+.banner-sub button, .system-button{
+    color: #005FAC;
+    /* float: right; */
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+  
+    padding: 10px 25px;
+    
+}
+.banner{
+    background-image: url('../images/banner/banner3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background:linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),;
+}
+/* Banner part end */
+
+/* my failure style start */
+.my-failure{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+}
+.failure-photo{
+    width: 569px;
+    height: 723.3px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.failure-description h3{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+    justify-content: space-around;
+    font-size: 40px;
+    margin-top: 400px;
+    max-width: 350px;
+}
+.failure-description p{
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 20px;
+    width: 400px;
+    margin-top: 24px;
+}
+.list-style{
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-left: 0;
+}
+.list-style i{
+    color: #16D887;
+}
+/* failoure style end */
+
+/* my plant part start */
+.my-plans{
+    margin-bottom: 70px;
+}
+.plans{
+    text-align: center;
+}
+.plans-title{
+    color: #151414;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.plan-container{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.plans-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+}
+.plans img{
+ 
+}
+/* watch part start */
+.positive{
+    background-image: linear-gradient(80deg, #005FAC 0%, rgba(0, 95, 172, 0) 50%), url('../images/watch.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+    width: 900px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.positive {
+    padding: 40px;
+}
+
+.positive .pos-describe h3{
+    color: #fff;
+    width: 400px;
+    font-size: 35px;
+    margin-bottom: 24px;
+    
+}
+/* positive part end */
+
+/* photo gallary start */
+.gallary-title{
+    text-align: center;
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.gallary-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+/* photo gallry end */
+
+.footers{
+    display: flex;
+    gap: 100px;
+    color: #fff;
+    background: #000000;
+    padding: 130px 200px;
+}
+.footers .section-title{
+    text-align: left;
+    margin-bottom: 30px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+}
+.footers input[type="text"],input[type="email"],textarea{
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 18px 30px;
+    border-radius: 5px;
+    background-color: #000000;
+    color: F3F3F3;
+    font-weight: 700;
+    font-size: 18px;
+}
+.btn-primary{
+    padding: 7px 10px;
+    background-color: #005FAC;
+    color: #fff;
+    border-radius: 5px;
+}
+.footers a{
+    text-decoration: none;
+    
+}
+.icone{
+    margin: 0 6px;
+}
+.section-description{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+}
+.footer-contact p{
+    color: #ffff;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
