@@ -51,7 +51,6 @@
     background-image: url('../images/banner/banner3.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background:linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),;
 }
 /* Banner part end */
 
@@ -166,21 +165,20 @@ div.gallery {
     width: 180px;
   }
   
-  div.gallery:hover {
+div.gallery:hover {
     border: 1px solid #777;
   }
   
-  div.gallery img {
+div.gallery img {
     width: 100%;
     height: auto;
   }
   
-  div.desc {
+div.desc {
     padding: 15px;
     text-align: center;
   }
 /* photo gallry end */
-
 .footers{
     display: flex;
     gap: 100px;
@@ -196,7 +194,7 @@ div.gallery {
     font-weight: 600;
     font-size: 25px;
 }
-.footers input[type="text"],input[type="email"],textarea{
+.footers input[type="text"],input[type="email"]{
     margin-bottom: 24px;
     width: 100%;
     padding: 18px 30px;
